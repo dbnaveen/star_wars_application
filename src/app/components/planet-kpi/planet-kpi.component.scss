@@ -1,0 +1,39 @@
+@import "../../../sass/styles.scss";
+
+* {
+  transition: all 0.32s ease;
+}
+
+.Planet-KPI {
+  position: relative;
+  background-color: #5588a3;
+  color: #e8e8e8;
+  box-shadow: none;
+  border-radius: 3px;
+
+  .fav {
+    position: absolute;
+    right: 15px;
+    top: 15%;
+  }
+
+  .fav:active {
+    transform: scale(0.93, 0.93) translateY(2px);
+  }
+
+  .fa-heart {
+    color: #00334e !important;
+  }
+  .fa-heart-o {
+    color: #145374 !important;
+  }
+
+  &-Name {
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  &-Films {
+    font-size: 14px;
+  }
+}

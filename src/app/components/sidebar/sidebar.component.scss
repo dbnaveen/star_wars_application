@@ -1,0 +1,46 @@
+@import "../../../sass/styles.scss";
+
+.sidebar {
+  padding: 2rem 0;
+  font-size: 14px;
+  height: 100%;
+  background-color: #145374;
+  // border-top: 1px solid #5c5e81;
+  .list-group {
+    a.list-group-item {
+      text-decoration: none;
+      margin: 0px;
+      border: none;
+      padding: 1rem 10px;
+      color: #e8e8e8;
+      background-color: transparent;
+    }
+
+    .fa {
+      color: #e8e8e8;
+      font-size: 16px;
+      padding: 0px 5px;
+    }
+
+    a.router-link-active {
+      color: #e8e8e8;
+      border: none;
+      width: 100%;
+      border-radius: 0px;
+      background: linear-gradient(45deg, black, transparent);
+      background: #5588a3;
+    }
+  }
+
+  .mat-badge-content {
+    background-color: #5588a3 !important;
+    color: #e8e8e8 !important;
+  }
+
+  .router-link-active {
+    .mat-badge-content {
+      background-color: #145374 !important;
+      color: #e8e8e8 !important;
+    }
+  }
+}
