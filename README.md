@@ -24,6 +24,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   `(contains a variable which is a subjectBehavior and made as observable so that the changes to the variable can be observed/monitored from anywhere in the application)`
   * __npm install --save font-awesome___
 
+## Deployment script to publish on Github Pages
+  * ng build --prod --output-path docs --base-href /online_pizza/
+
 ## Development Server
 
   Run `ng serve` and navigate to `http://localhost:4200/`. Or run `ng serve --open` which automatically open the browser and runs the application. Also the app will automcatically detect if any changes and reloads the application.
