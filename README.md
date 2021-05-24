@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Demo Link
 
-  https://naveendb92.github.io/star-wars/#/planet
+  https://dbnaveen.github.io/star_wars_application/
   
 ## Application Information
 
